@@ -1,7 +1,6 @@
 import "./Card.css";
 
-export function Card(props) {
-  const user = props.user;
+export function Card({ user }) {
   return (
     <div className="card">
       <img src={user.picture.medium} width="70%" />
